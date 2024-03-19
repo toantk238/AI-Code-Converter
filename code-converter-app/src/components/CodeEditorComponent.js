@@ -118,6 +118,9 @@ function CodeEditorComponent() {
             <option value="java">Java</option>
             <option value="python">Python</option>
             <option value="cpp">C++</option>
+            <option value="python-flask">Python-Flask</option>
+            <option value="golang">Golang</option>
+            <option value="rust">Golang</option>
           </select>
         </div>
 

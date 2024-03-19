@@ -37,7 +37,8 @@ public class CustomBotController {
 
     private String generatePromptFromCodeSnippet(String codeSnippet, String language) {
         // Customize this method to create a prompt from the code snippet and language.
-        return "Convert the given code snippet to " + language + ":\n\n" + codeSnippet;
+        String sourceLanguage = "Spring Boot";
+        return "Convert the given code snippet from " + sourceLanguage + " to " + language + ":\n\n" + codeSnippet;
     }
 
     @GetMapping("/debug-code")
